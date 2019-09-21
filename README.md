@@ -11,7 +11,7 @@ PRODUCTION
 
 ```
 const firebaseConfig = {
-  apiKey: "AIzaSyCMVDlPM_0DMTVdyyhO8hdHUaxRFw97FA0",
+  apiKey: "*************************",
   ...
   projectId: "projectname-prod",
   ...
