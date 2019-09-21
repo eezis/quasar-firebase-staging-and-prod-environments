@@ -92,7 +92,7 @@ firebase init
 
 The initialization creates two files, `.firebaserc` & `firbase.json` and you should inspect their form.
 
-Now you manage deploying a single local project to two remote firebase projects, you will leverage the `firebase use` command.
+Now is a good time to revisit our objective: we wish to conditionally deploy a single local project, to either a production or staging site hosted at firebase. This is a common ojbective and firebase has a command that you can leverage the `firebase use` command. You alias your sites, then you can use commands like `firebase use staging` and `firebase use production`.
 
 ```
 ~$ firebase use --add
