@@ -182,6 +182,16 @@ now edit the quasar.conf.js and add it to the boot section
 
 To see if the setup was working, tweaked the Index.vue like this, and monitored the developer console to ensure that the proper values were being used.
 
+
+```diff
+- NOTE: If you are using Quasar 1.0 or higher, you need to visit your `.eslintrc.js` and comment the 
+- following line if you wish to deploy Index.vue code that follows below or you will get no-console
+- errors.
+```
+```
+// 'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+```
+
 ```
 <template>
   <q-page class="flex flex-center">
