@@ -184,7 +184,7 @@ To see if the setup was working, tweaked the Index.vue like this, and monitored 
 
 
 ```diff
-- NOTE: If you are using Quasar 1.0 or higher, you need to visit your `.eslintrc.js` and comment the 
+- NOTE: If you are using @quasar/app 1.1.1 or higher, you need to visit your `.eslintrc.js` and comment the 
 - following line if you wish to deploy Index.vue code that follows below or you will get no-console
 - errors.
 ```
