@@ -134,8 +134,8 @@ So the process flow is for using quasar/qenv/fireabase is `fireabase use [specif
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
-    "dev": "firebase use default && QENV=staging quasar dev",
-    "staging": "firebase use default && QENV=staging quasar dev",
+    "dev": "QENV=staging quasar dev",
+    "staging": "QENV=staging quasar dev",
     "deploy-to-staging": "firebase use default && QENV=staging quasar build && firebase deploy",
     "deploy-to-production": "firebase use production && QENV=production quasar build && firebase deploy"
     },
