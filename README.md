@@ -34,7 +34,7 @@ Qenv is more flexible then dotenv, if you have a client specifying dotenv this p
 
 `quasar ext add @quasar/qenv`
 
-Now, during setup you might want to use a common name like "firebase" or your name or initals. I did use a common name here, opting instead to use objects inside my env config file -- but now that I see how everything fits and flows, I probably will in the next project. When the install is done running you will want to edit the `.quasar.env.json` inserting the firebase config info for your production and staging environments. Mine looks like this...
+Now, during setup you might want to use a common name like "firebase" or your name or initals. I didn't use a common name here, opting instead to use objects inside my env config file -- but now that I see how everything fits and flows, I probably will in the next project. When the install is done running you will want to edit the `.quasar.env.json` inserting the firebase config info for your production and staging environments. Mine looks like this...
 
 ```
 {
