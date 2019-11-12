@@ -81,7 +81,7 @@ Add firebase to the project with yarn or npm.
 
 `yarn add firebase`
 
-Then run firebase init. Note, I want staging to be the default, so I specified that when I ran init...
+Then run `firebase init`. Note, I want staging to be the default, so I specified that when I ran init...
 
 ```
 firebase init 
