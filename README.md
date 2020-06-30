@@ -194,6 +194,8 @@ To see if the setup was working, tweaked the Index.vue like this, and monitored 
 // 'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 ```
 
+Edit Index.vue
+
 ```
 <template>
   <q-page class="flex flex-center">
