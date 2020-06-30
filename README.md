@@ -2,7 +2,7 @@
 
 ### Firebase
 
-Create two projects: "ProjectName-Prod" and "ProjectName-Staging" -- I added analytics to Prod, but not Staging. If you are going to have clients previewing features in staging then you might setup analytics in both.
+Create two Firebase projects using the Firebase console: "ProjectName-Prod" and "ProjectName-Staging" -- I added analytics to Prod, but not Staging. If you are going to have clients previewing features in staging then you might setup analytics in both.
 
 
 Get the config info for each project.
