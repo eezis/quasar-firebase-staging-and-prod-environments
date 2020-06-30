@@ -228,6 +228,11 @@ export default {
 </script>
 ```
 
+```diff
+- Do not start with 'qausar dev', you need the package.json scripts to execute so 
+- use yarn dev or npm dev
+```
+
 `yarn dev`
  
 open up the console, clear it, click the ENV button inspect results 
