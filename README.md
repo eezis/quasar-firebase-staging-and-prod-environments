@@ -213,7 +213,7 @@ export default {
     envTest () {
     
       if (process.env.ENV_TYPE === undefined) {
-        console.log('To use QENV you must start with yarn dev or npm dev rather than quasar dev')
+        console.log('To use QENV you must start with yarn dev or npm run dev rather than quasar dev')
       }
       
       console.log('Current Env: ', process.env)
