@@ -209,6 +209,11 @@ export default {
   name: 'PageIndex',
   methods: {
     envTest () {
+    
+      if (process.env.ENV_TYPE === undefined) {
+        console.log('To use QENV you must start with yarn dev or npm dev rather than quasar dev')
+      }
+      
       console.log('Current Env: ', process.env)
 
       if (process.env.ENV_ID === 'staging') {
