@@ -79,7 +79,7 @@ Now, during setup you might want to use a common name like "firebase" or your na
 
 Add firebase to the project with yarn or npm.
 
-`yarn add firebase`
+`yarn add firebase`  Note: On Mac OSX it's best to use the global option, `yarn global add firebase`
 
 Then run `firebase init`. Note, I want staging to be the default, so I specified that when I ran init. Note also, since I am using yarn I say NO when asked if I want to use npm to install dependencies (when the init process is finished, I then use yarn  
 
